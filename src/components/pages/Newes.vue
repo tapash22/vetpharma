@@ -1,7 +1,7 @@
 <template>
   <div class="newes">
     <div class="row">
-      <h3>nwews</h3>
+      <!-- <h3>nwews</h3> -->
       <div class="col-md-8">
         <div class="box">
           <h2>title of the topic</h2>
@@ -93,6 +93,14 @@
   </div>
 </template>
 
+<script>
+export default {
+    mounted() {
+    window.scrollTo(0, 0);
+  },
+}
+</script>
+
 <style scoped>
 .newes {
   width: 100%;
@@ -127,7 +135,8 @@
   height: 100%;
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 2px 5px #000;
+  box-shadow: -10px 2px 5px rgb(66,8,141);
+  border-left: 20px solid rgb(20, 107, 141);
 }
 .col-md-8 .box h2 {
   padding: 5px;

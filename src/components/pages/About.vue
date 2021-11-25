@@ -195,31 +195,38 @@
   text-align: center;
   font-family: "Lobster", cursive;
 }
-.col-md-12 .intro{
+.col-md-12 .intro {
   width: 100%;
   height: 100%;
   padding: 10px;
-  margin: 10px;
+  margin: 0;
   display: flex;
-  justify-content: center;
 }
-.intro h5{
+.intro h5 {
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  margin-top: 3px;
+  background: rgb(21, 4, 44);
+  color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
   font-family: "Lobster", cursive;
   text-align: center;
-  width: 10%;
-  height: 100%;
-  padding: 10px;
-  margin: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
 }
-.intro p{
-  width: 65%;
+.intro p {
+  width: 70%;
   height: 100%;
   padding: 10px;
   margin: 0;
   font-size: 1rem;
   font-weight: 500;
   text-align: justify;
+  border: 1px dotted rgb(61, 48, 78);
+   border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="row">
-      <h3>Login</h3>
+      <!-- <h3>Login</h3> -->
       <div class="col-md-12">
         <div class="box">
           <form>
@@ -152,7 +152,7 @@ export default {
 }
 .box .image ul {
   padding: 0;
-  margin: 0;
+  margin:0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -166,5 +166,12 @@ export default {
   padding: 5px;
   margin: 5px;
   list-style: none;
+  box-shadow: 2px -10px 10px rgb(255, 255, 255);
+  transition: 0.5s box-shadow ease-out;
 }
+.image ul li:hover{
+  box-shadow: none;
+  transition: 0.3s box-shadow ease-out;
+}
+
 </style>
