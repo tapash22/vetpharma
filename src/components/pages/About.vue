@@ -1,86 +1,91 @@
 <template>
   <div class="about">
-    <div class="row">
-      <!-- <h3>about</h3> -->
-      <div class="col-md-12">
-        <div class="info">
-          <h1>FAB</h1>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="box">
-          <div class="col-md-4">
-            <h2>Features</h2>
-            <address>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
-              voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
-              aperiam possimus numquam error omnis sunt magnam, deleniti ratione
-              in inventore. Aliquam,Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Cum voluptatem quasi ratione. Illo ipsum, eos
-              aspernatur molestias aperiam possimus numquam error omnis sunt
-              magnam, deleniti ratione in inventore. Aliquam,Lorem ipsum dolor
-              sit, amet consectetur adipisicing elit. Cum voluptatem quasi
-              ratione. Illo ipsum, eos aspernatur molestias aperiam possimus
-              numquam error omnis sunt magnam, deleniti ratione in inventore.
-              Aliquam,
-            </address>
-          </div>
-          <div class="col-md-4">
-            <h2>Advantages</h2>
-            <address>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
-              voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
-              aperiam possimus numquam error omnis sunt magnam, deleniti ratione
-              in inventore. Aliquam,
-            </address>
-          </div>
-          <div class="col-md-4">
-            <h2>Benefits</h2>
-            <address>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
-              voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
-              aperiam possimus numquam error omnis sunt magnam, deleniti ratione
-              in inventore. Aliquam,Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Cum voluptatem quasi ratione. Illo ipsum, eos
-              aspernatur molestias aperiam possimus numquam error omnis sunt
-              magnam, deleniti ratione in inventore. Aliquam,Lorem ipsum dolor
-              sit, amet consectetur adipisicing elit. Cum voluptatem quasi
-              ratione. Illo ipsum, eos aspernatur molestias aperiam possimus
-              numquam error omnis sunt magnam, deleniti ratione in inventore.
-              Aliquam,
-            </address>
+    <div class="image">
+      <img src="../../assets/image/ab.jpg" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- <h3>about</h3> -->
+        <div class="col-md-12">
+          <div class="info">
+            <h1>FAB</h1>
           </div>
         </div>
-      </div>
+        <div class="col-md-12">
+          <div class="box">
+            <div class="col-md-4">
+              <h2>Features</h2>
+              <address>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
+                aperiam possimus numquam error omnis sunt magnam, deleniti
+                ratione in inventore. Aliquam,Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Cum voluptatem quasi ratione. Illo
+                ipsum, eos aspernatur molestias aperiam possimus numquam error
+                omnis sunt magnam, deleniti ratione in inventore. Aliquam,Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
+                aperiam possimus numquam error omnis sunt magnam, deleniti
+                ratione in inventore. Aliquam,
+              </address>
+            </div>
+            <div class="col-md-4">
+              <h2>Advantages</h2>
+              <address>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
+                aperiam possimus numquam error omnis sunt magnam, deleniti
+                ratione in inventore. Aliquam,
+              </address>
+            </div>
+            <div class="col-md-4">
+              <h2>Benefits</h2>
+              <address>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
+                aperiam possimus numquam error omnis sunt magnam, deleniti
+                ratione in inventore. Aliquam,Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Cum voluptatem quasi ratione. Illo
+                ipsum, eos aspernatur molestias aperiam possimus numquam error
+                omnis sunt magnam, deleniti ratione in inventore. Aliquam,Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                voluptatem quasi ratione. Illo ipsum, eos aspernatur molestias
+                aperiam possimus numquam error omnis sunt magnam, deleniti
+                ratione in inventore. Aliquam,
+              </address>
+            </div>
+          </div>
+        </div>
 
-      <div class="col-md-12">
-        <h1>Introduce with us</h1>
-        <div class="intro">
-          <h5>CEO</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            rerum ratione sequi temporibus itaque optio dolorum eaque tempora a
-            voluptate est ex reprehenderit eligendi, labore sunt obcaecati
-            assumenda ipsam placeat.
-          </p>
-        </div>
-        <div class="intro">
-          <h5>CEO</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            rerum ratione sequi temporibus itaque optio dolorum eaque tempora a
-            voluptate est ex reprehenderit eligendi, labore sunt obcaecati
-            assumenda ipsam placeat.
-          </p>
-        </div>
-        <div class="intro">
-          <h5>CEO</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-            rerum ratione sequi temporibus itaque optio dolorum eaque tempora a
-            voluptate est ex reprehenderit eligendi, labore sunt obcaecati
-            assumenda ipsam placeat.
-          </p>
+        <div class="col-md-12">
+          <h1>Introduce with us</h1>
+          <div class="intro">
+            <h5>CEO</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              rerum ratione sequi temporibus itaque optio dolorum eaque tempora
+              a voluptate est ex reprehenderit eligendi, labore sunt obcaecati
+              assumenda ipsam placeat.
+            </p>
+          </div>
+          <div class="intro">
+            <h5>CEO</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              rerum ratione sequi temporibus itaque optio dolorum eaque tempora
+              a voluptate est ex reprehenderit eligendi, labore sunt obcaecati
+              assumenda ipsam placeat.
+            </p>
+          </div>
+          <div class="intro">
+            <h5>CEO</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              rerum ratione sequi temporibus itaque optio dolorum eaque tempora
+              a voluptate est ex reprehenderit eligendi, labore sunt obcaecati
+              assumenda ipsam placeat.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -91,15 +96,26 @@
 .about {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 0;
   margin: 0;
+}
+.about .image {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
 }
 .about .row {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  margin-top: 100px;
 }
 .row h3 {
   font-size: 1.8rem;
@@ -177,12 +193,14 @@
 }
 .col-md-4 h2 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   text-align: center;
 }
 .col-md-4 address {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   text-align: justify;
   padding: 10px;
   margin: 0;
@@ -206,16 +224,15 @@
   width: 30%;
   height: 100%;
   padding: 20px;
-  margin-top: 3px;
+  margin-top: 1%;
   background: rgb(21, 4, 44);
   color: #fff;
   font-size: 1.2rem;
-  font-weight: 500;
-  font-family: "Lobster", cursive;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   text-align: center;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-
 }
 .intro p {
   width: 70%;
@@ -223,10 +240,11 @@
   padding: 10px;
   margin: 0;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   text-align: justify;
-  border: 1px dotted rgb(61, 48, 78);
-   border-top-right-radius: 10px;
+  border: 1px solid rgb(61, 48, 78);
+  border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 </style>

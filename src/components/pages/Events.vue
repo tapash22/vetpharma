@@ -1,55 +1,74 @@
 <template>
   <div class="events">
-    <div class="row">
-      <!-- <h3>events</h3> -->
-      <div class="col-md-3">
-        <h4>Notice board</h4>
-        <ul>
-          <li>Notice for members association this our finel dicision for vet_executive</li>
-          <li>Notice for members association this our finel dicision for vet_executive</li>
-          <li>Notice for members association this our finel dicision for vet_executive</li>
-          <li>Notice for members association this our finel dicision for vet_executive</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-          <li>Notice for members association</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <div class="card" v-for="gevent in groupEvent" :key="gevent.id">
-          <div class="card-title">
-            <h5>{{ gevent.title}}</h5>
-          </div>
-          <div class="card-body">
-            <img :src="gevent.image"/>
-          </div>
-          <div class="card-footer">
-            <p>
-              {{gevent.des}}
-            </p>
+    <div class="image">
+      <img src="../../assets/image/ev.jpg" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Notice board</h4>
+          <ul>
+            <li>
+              Notice for members association this our finel dicision for
+              vet_executive
+            </li>
+            <li>
+              Notice for members association this our finel dicision for
+              vet_executive
+            </li>
+            <li>
+              Notice for members association this our finel dicision for
+              vet_executive
+            </li>
+            <li>
+              Notice for members association this our finel dicision for
+              vet_executive
+            </li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+            <li>Notice for members association</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="card" v-for="gevent in groupEvent" :key="gevent.id">
+            <div class="card-title">
+              <h5>{{ gevent.title }}</h5>
+            </div>
+            <div class="card-body">
+              <img :src="gevent.image" />
+            </div>
+            <div class="card-footer">
+              <p>
+                {{ gevent.des }}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <h4>Up comming Events</h4>
-        <ul>
-          <li>make a plane for Vet-Executive make a plane for Vet-Executive make a plane for Vet-Executivmake a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-          <li>make a plane for Vet-Executive</li>
-        </ul>
+        <div class="col-md-3">
+          <h4>Up comming Events</h4>
+          <ul>
+            <li>
+              make a plane for Vet-Executive make a plane for Vet-Executive make
+              a plane for Vet-Executivmake a plane for Vet-Executive
+            </li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+            <li>make a plane for Vet-Executive</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -64,19 +83,19 @@ export default {
           id: 1,
           title: "Annual pricing event in 2021",
           des: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio nihil natus illum dolorem perferendis dicta vel expedita unde, tempora dolorum aperiam accusantium qui magnam eum ducimus, animi odit dolores velit.",
-          image: require('../../assets/image/rocket.jpg'),
+          image: require("../../assets/image/rocket.jpg"),
         },
         {
           id: 2,
           title: "Annual pricing event in 2020",
           des: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio nihil natus illum dolorem perferendis dicta vel expedita unde, tempora dolorum aperiam accusantium qui magnam eum ducimus, animi odit dolores velit.",
-          image: require('../../assets/image/rocket.jpg'),
+          image: require("../../assets/image/rocket.jpg"),
         },
       ],
     };
   },
 
-    mounted() {
+  mounted() {
     window.scrollTo(0, 0);
   },
 };
@@ -88,15 +107,26 @@ export default {
 .events {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 0;
   margin: 0;
+}
+.events .image {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+.events .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
 }
 .events .row {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin-top: 100px;
-  display: flex;
+  margin: 0;
 }
 .row h3 {
   font-size: 1.8rem;
@@ -117,12 +147,12 @@ export default {
 
 .row .col-md-3 h4 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
   padding: 5px;
-  margin: 0;
-  border: 1px dotted green;
+  margin-top: 10px;
+  border: 3px double rgb(66, 8, 141);
 }
 .col-md-3 ul {
   width: 100%;
@@ -137,114 +167,30 @@ export default {
   padding: 10px;
   margin: 0;
   list-style: none;
-  box-shadow: -5px 5px 5px rgb(66,8,141);
-
-  /* border: 1px dotted rgb(66, 8, 141); */
+  box-shadow: 0 0 5px rgb(66, 8, 141);
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  text-align: justify;
 }
-/* .col-md-3 ul li:nth-child(1) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: black;
-}
-.col-md-3 ul li:nth-child(2) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: red;
-}
-.col-md-3 ul li:nth-child(3) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: green;
-}
-.col-md-3 ul li:nth-child(4) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: blue;
-}
-.col-md-3 ul li:nth-child(5) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: yellow;
-}
-.col-md-3 ul li:nth-child(6) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: violet;
-}
-.col-md-3 ul li:nth-child(7) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: skyblue;
-}
-.col-md-3 ul li:nth-child(8) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: white;
-}
-.col-md-3 ul li:nth-child(9) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: pink;
-}
-.col-md-3 ul li:nth-child(10) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: orange;
-}
-.col-md-3 ul li:nth-child(11) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: gold;
-}
-.col-md-3 ul li:nth-child(12) {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  margin: 0;
-  background: silver;
-} */
-
 .row .col-md-6 {
   width: 50%;
   height: 100%;
   padding: 5px;
-  margin: 0;
+  margin-top: 10px;
   background: rgba(255, 255, 255, 0.712);
-  border-left: 1px dotted black;
-  border-right: 1px dotted black;
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
 }
-.col-md-6 .card{
+.col-md-6 .card {
   width: 100%;
   height: 100%;
   padding: 10px;
   margin: 0;
   background: #fff;
-  border: none;
   border-bottom: 1px solid black;
 }
-.col-md-6 .card .card-title{
+.col-md-6 .card .card-title {
   width: 100%;
   height: 20%;
   padding: 5px;
@@ -253,14 +199,15 @@ export default {
   justify-content: left;
   background: #fff;
 }
-.card .card-title h5{
-  font-size: 1.2rem;
-  font-weight: 500;
+.card .card-title h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   color: #000;
   padding: 0;
   margin: 0;
 }
-.card .card-body{
+.card .card-body {
   width: 100%;
   height: 40%;
   padding: 0;
@@ -268,13 +215,13 @@ export default {
   display: flex;
   justify-content: center;
 }
-.card .card-body img{
+.card .card-body img {
   width: 100%;
   height: 100%;
   padding: 5px;
   margin: 0;
 }
-.card .card-footer{
+.card .card-footer {
   width: 100%;
   height: 40%;
   padding: 10px;
@@ -284,10 +231,10 @@ export default {
   border: none;
   background: #fff;
 }
-.card .card-footer p{
+.card .card-footer p {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   text-align: justify;
-
 }
 </style>

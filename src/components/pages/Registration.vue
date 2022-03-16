@@ -10,31 +10,59 @@
               <input class="form-control" type="text" v-model="lname" />
             </div>
             <div class="form-group">
+              <label>Father Name</label>
+              <input class="form-control" type="text" v-model="lname" />
+            </div>
+            <div class="form-group">
+              <label>Mother Name</label>
+              <input class="form-control" type="text" v-model="lname" />
+            </div>
+            <div class="form-group">
               <label>Email</label>
               <input class="form-control" type="text" v-model="lemail" />
             </div>
             <div class="form-group">
-              <label>Mobile Personal</label>
+              <label>Personal Number</label>
               <input class="form-control" type="number" v-model="lmobile" />
             </div>
             <div class="form-group">
-              <label>Mobile Official</label>
+              <label>Official Number</label>
               <input class="form-control" type="number" v-model="lomobile" />
             </div>
-            <div class="form-group">
-              <label>National Id</label>
-              <input class="form-control" type="number" v-model="lid" />
+            <div class="form-control">
+              <label>Current Address</label>
+              <textarea class="form-control"></textarea>
+            </div>
+            <div class="form-control">
+              <label>Permanent Address</label>
+              <textarea class="form-control"></textarea>
             </div>
             <div class="form-group">
-              <label>National Id</label>
-              <textarea class="form-control" v-model="laddress"></textarea>
-            </div>
-            <div class="form-group">
-              <label>University </label>
+              <label>University Name </label>
               <input class="form-control" type="text" v-model="leducation" />
             </div>
             <div class="form-group">
-              <label>Current Status</label>
+              <label>Passing year </label>
+              <input class="form-control" type="text" v-model="leducation" />
+            </div>
+            <div class="form-group">
+              <label>Company Name</label>
+              <input class="form-control" type="text" v-model="lstatus" />
+            </div>
+            <div class="form-group">
+              <label>Designation</label>
+              <input class="form-control" type="text" v-model="lstatus" />
+            </div>
+            <div class="form-group">
+              <label>National Id Number</label>
+              <input class="form-control" type="text" v-model="lstatus" />
+            </div>
+            <div class="form-group">
+              <label>Date of Birth</label>
+              <input class="form-control" type="text" v-model="lstatus" />
+            </div>
+            <div class="form-group">
+              <label>Blood Group</label>
               <input class="form-control" type="text" v-model="lstatus" />
             </div>
             <div class="form-group">
@@ -108,8 +136,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  /* margin: 0; */
-  margin-top: 100px;
+  margin: 0;
 }
 .row h3 {
   font-size: 1.8rem;

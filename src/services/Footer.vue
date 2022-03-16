@@ -12,10 +12,10 @@
               <router-link to="/about">About </router-link>
             </li>
             <li>
-              <router-link to="/newes">Newes </router-link>
+              <router-link to="/events">Events </router-link>
             </li>
             <li>
-              <router-link to="/events">Events </router-link>
+              <router-link to="/gallery">Gallery </router-link>
             </li>
             <li>
               <router-link to="/contactus">Contact us </router-link>
@@ -27,13 +27,13 @@
           <div class="first">
             <ul>
               <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-              <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+              <li><router-link to="/contactus"><i class="fa fa-envelope-o" aria-hidden="true"></i></router-link></li>
               <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
             </ul>
           </div>
         </div>
         <div class="bottom">
-            <p>All right reserved in &copy;Ultrawave.Digital</p>
+            <p>Developed by &copy;ultrawave.digital</p>
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  background: rgb(21, 4, 44);
+  background: #fff;
 }
 .box ul li {
   padding: 0;
@@ -98,9 +98,10 @@
   justify-content: center;
 }
 .box ul li a {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #f9f9fc;
+font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  color: rgb(61, 48, 78);
   text-align: center;
   padding: 5px;
   margin: 5px;
@@ -110,6 +111,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
+  background: #fff;
 }
 .box .first ul {
   padding: 0;
@@ -120,20 +122,24 @@
   justify-content: center;
 }
 .box .first ul li {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  border: 2px solid #ffffff;
-  background: #fff;
+  border: 2px solid rgb(61, 48, 78);
+   background: #fff;
   text-align: center;
   padding: 5px;
   margin: 10px;
   list-style: none;
   transition: 0.3s all ease-out;
 }
+.box .first ul li a{
+  padding: 0;
+  margin: 0;
+}
 .box .first ul li i {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -141,8 +147,9 @@
   margin: auto;
 }
 .box .first ul li:hover {
-   background: #123456;
+     background: rgb(61, 48, 78);
   transition: 0.3s all ease-out;
+  color: rgb(61, 48, 78);
 }
 .col-md-12 .bottom{
     width: 100%;
@@ -158,6 +165,6 @@
     padding: 5px;
     margin: 5px;
     text-align: center;
-    color: rgb(204, 100, 15);
+    color: rgb(5, 5, 5);
 }
 </style>

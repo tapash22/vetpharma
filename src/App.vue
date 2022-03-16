@@ -1,7 +1,9 @@
 <template>
 <div id="app">
   <Navigation />
+  <div class="intro">
     <router-view></router-view>
+  </div>
   <Footer/>
 </div>
 </template>
@@ -26,12 +28,11 @@ export default {
   width: 100%;
   height: 100%;
 }
-.content{
+.intro{
   width: 100%;
   height: 100%;
   padding: 0;
   margin:0;
-
 }
 </style>
 

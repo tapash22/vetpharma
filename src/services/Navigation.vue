@@ -2,7 +2,7 @@
   <div class="navigation">
     <nav>
       <a href="#">
-        <h1>Vet-Executive</h1>
+        <img src="../assets/image/logo.png" />
       </a>
       <ul>
         <li>
@@ -13,19 +13,25 @@
         </li>
         <li>
           <router-link to="/about"
-            >About
-            <hr
-          /></router-link>
-        </li>
-        <li>
-          <router-link to="/newes"
-            >Newes
+            >TVE
             <hr
           /></router-link>
         </li>
         <li>
           <router-link to="/events"
             >Events
+            <hr
+          /></router-link>
+        </li>
+        <li>
+          <router-link to="/membership"
+            >Membership
+            <hr
+          /></router-link>
+        </li>
+        <li>
+          <router-link to="/gallery"
+            >Gallery
             <hr
           /></router-link>
         </li>
@@ -48,39 +54,41 @@
 
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@100&family=Lobster&family=Poppins:wght@100;500&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gideon+Roman&family=Lato:wght@100&family=Lobster&family=Luxurious+Roman&family=Merienda:wght@700&family=Montserrat&family=Oswald:wght@400;500&family=Playfair+Display&family=Poppins:wght@100;500&family=Raleway:ital,wght@1,800&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&family=Romanesco&family=Ubuntu:wght@700&family=Vollkorn:wght@500&display=swap");
 
 .navigation {
   width: 100%;
-  height: auto;
+  height: 100px;
   padding: 0;
   margin: 0;
-  position: fixed;
-  z-index: 999;
 }
 .navigation nav {
   width: 100%;
   height: 100px;
   padding: 0;
   margin: 0;
+    position: fixed;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to top, rgb(21, 4, 44), rgb(61, 48, 78));
+  background: #fff;
+  box-shadow: 0 0 10px rgb(1, 1, 58);
+  z-index: 999;
+  /* background: linear-gradient(to top, rgb(21, 4, 44), rgb(61, 48, 78)); */
 }
 nav a {
   width: 40%;
   height: 100%;
-  padding: 10px;
-  margin: 10px;
-  text-decoration: none;
-}
-nav a h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  font-family: "Alfa Slab One", cursive;
-  padding: 0;
+  padding: 5px;
   margin: 0;
-  color: rgb(117, 14, 66);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+nav a img {
+  width: 200px;
+  height: 100%;
+  padding: 5px;
+  margin: 0;
 }
 nav ul {
   width: 60%;
@@ -98,13 +106,14 @@ nav ul li {
 }
 nav ul li a {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
   margin: 0;
-  padding:0;
+  padding: 0;
   display: inline;
   text-decoration: none;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: #000;
+  line-height: 50px;
 }
 ul li a hr {
   width: 100%;
@@ -112,19 +121,23 @@ ul li a hr {
   visibility: hidden;
   border-radius: 3%;
   background: #fff;
+  padding: 0;
+  margin: 0;
 }
 nav ul li a:hover hr {
-   width: 100%;
+  width: 100%;
   height: 2px;
   visibility: visible;
   border-radius: 5%;
   animation: square 1s;
+  background: #fff;
 }
-nav ul li a.router-link-exact-active hr{
-       width: 100%;
+nav ul li a.router-link-exact-active hr {
+  width: 100%;
   height: 2px;
   visibility: visible;
   border-radius: 10%;
+  background: #fff;
 }
 
 @keyframes square {
@@ -135,7 +148,6 @@ nav ul li a.router-link-exact-active hr{
   10% {
     transform: translateX(-10%);
     width: 10%;
-
   }
   100% {
     transform: translateX(0%);

@@ -101,8 +101,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  /* margin: 0; */
-  margin-top: 100px;
+  margin: 0;
 }
 .row h3 {
   font-size: 1.8rem;

@@ -26,12 +26,12 @@
                 <p>University name</p>
               </li>
               <li>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <p>Company name</p>
+              </li>
+              <li>
                 <i class="fa fa-shield" aria-hidden="true"></i>
                 <p>Current Status</p>
-              </li>
-               <li>
-                <i class="fa fa-cog" aria-hidden="true"></i>
-                <p>Member type</p>
               </li>
             </ul>
           </div>
@@ -43,7 +43,7 @@
           <div class="left">
             <h5>Permanent Address</h5>
             <address>
-               House No:40, Road No:01,<br />
+              House No:40, Road No:01,<br />
               Block:#E, Bonosree,<br />
               Rampura,Dhaka.<br />
             </address>
@@ -51,12 +51,31 @@
           <div class="right">
             <h5>Current Address</h5>
             <address>
-               House No:40, Road No:01,<br />
+              House No:40, Road No:01,<br />
               Block:#E, Bonosree,<br />
               Rampura,Dhaka.<br />
             </address>
           </div>
         </div>
+      </div>
+
+      <h3>Others</h3>
+
+      <div class="intro">
+        <ul>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+        </ul>
+        <ul>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+          <li>A</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -81,8 +100,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  /* margin: 0; */
-  margin-top: 100px;
+  margin: 0;
 }
 .row h3 {
   font-size: 1.8rem;
@@ -165,7 +183,7 @@ export default {
   margin: 0;
   justify-content: center;
 }
-.col-md-8 h4{
+.col-md-8 h4 {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 500;
@@ -180,31 +198,56 @@ export default {
   padding: 10px;
   margin: 0;
   display: flex;
-  justify-content:space-evenly;
- 
+  justify-content: space-evenly;
 }
-.col-md-8 .box2 .left{
+.col-md-8 .box2 .left {
   width: 40%;
   height: 100%;
   padding: 10px;
   margin: 0;
 }
-.col-md-8 .box2 .right{
+.col-md-8 .box2 .right {
   width: 40%;
   height: 100%;
-  padding: 10PX;
+  padding: 10px;
   margin: 0;
 }
-.col-md-8 .box2 .right h5 ,.col-md-8 .box2 .left h5{
+.col-md-8 .box2 .right h5,
+.col-md-8 .box2 .left h5 {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
 }
-.col-md-8 .box2 .left address, .col-md-8 .box2 .right address{
+.col-md-8 .box2 .left address,
+.col-md-8 .box2 .right address {
   font-size: 1.1rem;
   font-weight: 500;
   padding-left: 35%;
   margin: 0;
 }
+.row .intro{
+  width: 80%;
+  height: 100%;
+  padding-left: 20%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 
+}
+.row .intro ul{
+  width: 50%;
+  height: 100%;
+  padding:10px;
+  margin: 0;
+  display: block;
+}
+.row .intro ul li{
+  width: 100%;
+  padding:5px;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+    font-family: "Playfair Display", serif;
+    list-style: none;
+} 
 </style>
